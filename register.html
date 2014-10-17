@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<link href="stylesheets/style.css" rel="stylesheet" type="text/css"/>
+		<title>과제1</title>
+	</head>
+	
+	<body>
+		<h1 class="divLeft">웹프로그래밍 과제2 / 60092366 김민기</h1>
+		<div id="login" class="divRight"><a href="login.html">로그인</a>/<a href="register.html">회원가입</a></div>
+		<div class="hidden"></div>
+		
+		<div id="wrap">
+		<div id="header">
+			<div id="header-left">
+				<a href="index.html"><img src="images/따봉로고.jpg" alt="로고"></a>
+			</div>
+			<div id="header-right" class="divRight">
+				<input class="search" type="text" name="search">
+				<input type="submit" value="검색">
+			</div>
+				
+			<div class="hidden"></div>
+			
+		</div>
+		<div id="navi">
+				<div class="naviStyle divLeft">
+					<a href="index.html" class="no-unline">자기 소개</a>
+				</div>
+				<div class="naviStyle divLeft">
+					<a href="index2.html" class="no-unline">최근 행적</a>
+				</div>
+				<div class="naviStyle divLeft">
+					<a href="index3.html" class="no-unline">설문 조사</a>
+				</div>
+
+				<div class="hidden"></div>
+			</div>
+		 
+		 <div id="contents">
+		 	<h2 class="contents-main">★회원가입</h2>
+		 	<table class="register-table">
+		 		<tbody>
+		 			<tr>
+		 				<td>
+		 					
+		 				
+		 	<form action="#" method="post" name="memberForm">
+					<fieldset>	
+						<div class="top">
+							<strong>기본항목</strong>(필수입력사항입니다)
+						</div>
+						<dl>
+							<dt>
+								<img src="images/li_bull.gif" alt="화살표"/><label>아이디</label>
+							</dt>
+							<dd>
+								<input type="text" name="id" />
+								<input type="button" value="중복체크" />
+								<span>※영/숫자 만으로 4-12자</span>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/li_bull.gif" alt="화살표" /><label>비밀번호</label></dt>
+							<dd>
+								<input type="password" name="password" /><span>※영문 또는 영/숫자 혼합 4-12자</span>
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="images/li_bull.gif" alt="화살표" /><label>비밀번호확인</label></dt>
+							<dd>
+								<input type="password" name="passwordCheck" /><span>※비밀번호 일치해야함</span>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<img src="images/li_bull.gif" alt="화살표" /><label>이름</label>
+							</dt>
+							<dd>
+								<input type="text" name="name" /><span>※이름을 입력해주세요</span>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<img src="images/li_bull.gif" alt="화살표" /><label>성별</label>
+							</dt>
+							<dd>
+								<input type="radio" name="gender" value="남" />남
+								<input type="radio" name="gender" value="여" />여
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<img src="images/li_bull.gif" alt="화살표" /><label>우편번호</label>
+							</dt>
+							<dd>
+								<input type="text" name="zipcode" />
+								<input type="button" value="우편번호검색"/>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<img src="images/li_bull.gif" alt="화살표" /><label>주소</label>
+							</dt>
+							<dd>
+								<input type="text" name="address" size="48" />
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<img src="images/li_bull.gif" alt="화살표" /><label>직업</label>
+							</dt>
+							<dd>
+								<select>
+									<option value="">선택하세요</option>
+									<option value="학생">학생</option>
+									<option value="회사원">회사원</option>
+									<option value="전문직">전문직</option>
+								</select>
+							</dd>
+						</dl>
+						<dl>
+							<dt>
+								<img src="images/li_bull.gif" alt="화살표" /><label>취미</label>
+							</dt>
+							<dd>
+								<input type="checkbox" name="interestValue" value="경제" />경제 &nbsp;
+								<input type="checkbox" name="interestValue" value="IT" />IT &nbsp;
+								<input type="checkbox" name="interestValue" value="음악" />음악 &nbsp;
+							</dd>
+						</dl>
+						<div class="bottom">
+							<input type="submit" value="확인" />
+							<input type="reset" value="다시입력" />
+						</div>
+					</fieldset>
+				</form>
+				</td>
+		 			</tr>
+		 		</tbody>
+				</table>
+		 </div><!--contents div-->
+		 	<div  id="footer">
+			<span><a href="#">광고</a>/<a href="#">이용약관</a>/<a href="#">고객센터</a></span>
+		</div><!--footer div -->
+		</div><!--wrap div-->
+		
+		
+	</body>
+</html>

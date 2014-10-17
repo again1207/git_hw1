@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<link href="stylesheets/style.css" rel="stylesheet" type="text/css"/>
+		<title>과제1</title>
+	</head>
+	
+	<body>
+		<h1 class="divLeft">웹프로그래밍 과제2 / 60092366 김민기</h1>
+		<div id="login" class="divRight"><a href="login.html">로그인</a>/<a href="register.html">회원가입</a></div>
+		<div class="hidden"></div>
+		
+		<div id="wrap">
+		<div id="header">
+			<div id="header-left">
+				<a href="index.html"><img src="images/따봉로고.jpg" alt="로고"></a>
+			</div>
+			<div id="header-right" class="divRight">
+				<input class="search" type="text" name="search">
+				<input type="submit" value="검색">
+			</div>
+			<div class="hidden"></div>
+			
+		</div>
+		
+		<div id="navi">
+				<div class="naviStyle divLeft">
+					<a href="index.html" class="no-unline">자기 소개</a>
+				</div>
+				<div class="naviStyle divLeft">
+					<a href="index2.html" class="no-unline">최근 행적</a>
+				</div>
+				<div class="naviStyle divLeft">
+					<a href="index3.html" class="no-unline active">설문 조사</a>
+				</div>
+
+				<div class="hidden"></div>
+			</div>
+		 
+		 <div id="contents">
+		 	<h2 class="contents-main">★설문 조사</h2>
+		 	<form action="#" method="post">
+		 		<p>저에 대한 인상은 어떻습니까?</p>
+		 		<div>
+						<img src="images/CAM00167.png" alt="민기사진.jpg">
+					</div>
+				<div class="divLeft">
+					<ol>
+		 				<li><div>어떤 성격 같습니까?</div>
+		 					<input type="radio" name="character" value="유쾌함" />유쾌함
+		 					<input type="radio" name="character" value="찌질이" />찌질이
+		 					<input type="radio" name="character" value="내성적" />내성적
+		 					<input type="radio" name="character" value="터프가이" />터프가이		
+		 				</li>
+		 				
+		 				<li><div>만약 둘이 무언가를 해야한다면 무엇을 하시겠습니까?<span>복수선택가능</span></div>
+								<input type="checkbox" name="reason" value=""/>같이 파닭을 먹는다.<br>
+								<input type="checkbox" name="reason" value=""/>명진당가서 공부나할까?<br>
+								<input type="checkbox" name="reason" value=""/>라면 먹고갈래?<br>
+								<input type="checkbox" name="reason" value=""/>그냥 지나가려고 애쓴다.<br>
+		 				</li>
+		 				
+		 				<li><div>마지막으로 저에게 남기고 싶은 말은?</div>
+		 					<textarea rows="12" cols="50" name="message"></textarea><br>
+		 				</li>			
+		 		  	</ol>
+		 		  	<div>
+		 		  			<input type="submit" value="작성완료">
+		 					<input type="reset" value="다시작성">	
+					</div>
+				</div>
+				<div class="hidden"></div>	
+		 	</form>
+		 </div><!--contents div-->
+		 	<div  id="footer">
+			<span><a href="#">광고</a>/<a href="#">이용약관</a>/<a href="#">고객센터</a></span>
+			</div><!--footer div -->
+		 </div>
+		 
+		 
+		 
+	</body>
+</html>
